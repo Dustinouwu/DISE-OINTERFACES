@@ -1,0 +1,69 @@
+:root{
+    --Principal: #8F2727;
+    
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.login{
+   
+    width: 100;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.form-container{
+    display: grid;
+    
+    width: 400px;
+}
+
+.login_imagen{
+    
+    
+    justify-self: center;
+}
+
+.QRSHOP{
+    font-family: 'Nanum Brush Script', cursive;
+    font-style: normal;
+    font-size: 47.5px;
+    position: relative;
+    top: -80px;
+    justify-self: center;
+    margin-bottom: -10px;
+    
+    
+
+}
+
+.logo_proyecto{
+    top: -50px;
+    position: relative;
+    justify-self: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    justify-self: center;
+}
+
+.input{
+    
+    border: none;
+    border-radius: 50px;
+    height: 60px;
+    padding: 80px;
+    margin-bottom: 25px;
+}
+
+.form2{
+    display: -moz-deck;
+    flex-direction: column;
+    margin-bottom: 25px;
+    justify-self: center;
+    
